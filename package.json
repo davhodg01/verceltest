@@ -1,7 +1,9 @@
 {
   "name": "vercel-test-app",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "start": "node api/index.js",
     "build": "echo 'Building...' && cp -r api .vercel_output/functions/api",
